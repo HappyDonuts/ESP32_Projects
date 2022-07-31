@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 60px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 60px;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5%;
+  margin: 5%;
+  font-size: 60px
+}
+</style>
+
+<body>
+
+<div>
+  <h3>Connect to your WiFi network</h3>
+  
+  <form action="/" method="post">
+    <label for="ssid">SSID</label>
+    <input type="text" id="ssid" name="SSID" placeholder=" ">
+    <label for="psw">Password</label>
+    <input type="password" id="psw" name="Password" placeholder=" ">
+    <input type="submit" value="Connect">
+  </form>
+</div>
+
+</body>
+</html>
